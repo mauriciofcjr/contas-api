@@ -1,4 +1,4 @@
-package br.com.mauricio.contas_api;
+package br.com.mauricio.contas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

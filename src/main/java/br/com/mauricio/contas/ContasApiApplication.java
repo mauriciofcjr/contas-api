@@ -1,4 +1,4 @@
-package br.com.mauricio.contas_api;
+package br.com.mauricio.contas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
