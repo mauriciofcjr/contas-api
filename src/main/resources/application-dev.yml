@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/contas
-    username: contas
-    password: contas
+    url: jdbc:postgresql://localhost:${POSTGRES_PORT:5432}/${POSTGRES_DB:contas}
+    username: ${POSTGRES_USER:contas}
+    password: ${POSTGRES_PASSWORD:contas}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:

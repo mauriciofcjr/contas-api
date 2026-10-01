@@ -10,7 +10,7 @@ spring:
         jdbc:
           time_zone: America/Sao_Paulo
   flyway:
-    enable: true 
+    enabled: true 
     baseline-on-migrate: true
 server:
   port: 8080
